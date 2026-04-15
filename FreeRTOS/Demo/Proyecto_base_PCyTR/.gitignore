@@ -1,4 +1,36 @@
 .sconsign.dblite
+
+# Build artifacts
 build/
+*.o
+*.d
+*.a
+*.so
+
+# Executables and generic outputs
+posix_demo
+*.out
+
+# Profiling and logs
+gmon.out
+prof_flat.txt
+prof_call_graph.txt
+error.txt
+
+# Trace outputs
+*.dump
+traces/
+
+# Coverage/sanitizer leftovers
+*.gcda
+*.gcno
+*.gcov
+
+# Editor/temp files
+*~
+*.swp
+*.swo
+
+# Local vendor copies (if used)
 src/FreeRTOS
 src/FreeRTOS-Plus
