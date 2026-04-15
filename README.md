@@ -42,7 +42,7 @@ El script que automatiza compilacion/ejecucion es:
 
 Simplemente haz un git clone de este proyecto a cualquier carpeta de tu sistema. No es necesario copiar nada ni instalar dependencias adicionales al venir ya todo configurado.
 ```bash
-git clone
+git clone https://github.com/Joseleelsuper/FreeRTOSv202112.00.git
 ```
 
 ## Flujo general para ejecutar cualquier ejercicio
