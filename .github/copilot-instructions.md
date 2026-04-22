@@ -15,6 +15,8 @@
 - Standard run path: `./build.sh` (runs clean, profile build, profiling stage, then final execution; stderr goes to `error.txt`).
 - Manual build path: `make clean && make PROFILE=1 && ./build/posix_demo`.
 - Profiling flow: `make profile` runs the demo and expects Ctrl+C to generate `gmon.out`, then writes `build/prof_flat.txt` and `build/prof_call_graph.txt`.
+- The Tracealyzer input trace file is `build/Trace.dump`, generated in the `build` directory after running `./build.sh`.
+- Tracealyzer application can only be run on Windows.
 - Sanitizers are supported: `make SANITIZE_ADDRESS=1` or `make SANITIZE_LEAK=1`.
 
 ## Project-Specific Coding Patterns

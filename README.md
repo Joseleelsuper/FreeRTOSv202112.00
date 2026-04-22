@@ -80,6 +80,11 @@ Archivos de perfil generados:
 
 - `build/prof_flat.txt`
 - `build/prof_call_graph.txt`
+- `build/Trace.dump` (archivo de traza para abrir en Tracealyzer)
+
+> [!NOTE]
+> La aplicacion de [Tracealyzer](https://percepio.com/tracealyzer/) solo puede ejecutarse en Windows.
+> Recomiendo descargarla a través de la aplicación de [UBULabs](https://ubulabs.ubu.es/app/d71cae88-dd25-11ee-b84f-005056ac16f3) de la Universidad.
 
 ## Donde activar cada funcion
 
